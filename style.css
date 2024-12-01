@@ -1,0 +1,109 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Styling */
+header {
+    background: #004c9b;
+    color: #ffdc00;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+    padding-top: 10px;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: #ffdc00;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Sections Styling */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+section p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+/* Registration Section Button Styling */
+button {
+    background-color: #002d72;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffdc00;
+}
+
+/* Follow Us Section Styling */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2em;
+}
+
+ul li a:hover {
+    color: #007BFF;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #004c9b;
+    color: #ffdc00;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
